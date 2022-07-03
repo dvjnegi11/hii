@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int dis;
+        cin>>dis;
+        cout<<5*2*dis<<endl; //5 days *... 2*dis == total distance
+    }
+	return 0;
+}

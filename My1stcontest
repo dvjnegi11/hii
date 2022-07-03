@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int N, A, B;
+	cin>>N>>A>>B;
+	int getrating = N-A;
+	int higherrating = getrating - B;
+	cout<<getrating<<" "<<higherrating<<endl;
+	return 0;
+}

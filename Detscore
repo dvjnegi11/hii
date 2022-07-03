@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int X, N;
+	    cin>>X>>N;
+	    int score = X/10 * N;
+	    cout<<score<<endl;
+	}
+	return 0;
+}
